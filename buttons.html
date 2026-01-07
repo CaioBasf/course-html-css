@@ -1,14 +1,17 @@
 <style>
   .subscribe-button { /* Seletor CSS */
-    background-color: rgb(200, 0, 0); /* Propiedade do CSS / valor do CSS*/
+    background-color: rgb(204, 0, 0); /* Propiedade do CSS / valor do CSS*/
     color: white; /* color é apenas a letra do elemento*/
     border: none;
-    height: 36px;
-    width: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
     transition: opacity 0.15s;
+    vertical-align: top;
     }
 
     .subscribe-button:hover {
@@ -21,20 +24,22 @@
 
   .join-button {
   background-color: white;
-  color: rgb(41, 118, 211);
-  border-color: rgb(41, 118, 211);
+  color: rgb(6, 95, 212);
+  border-color: rgb(6, 95, 212);
   border-style: solid;
   border-width: 1px;
-  height: 36px;
-  width: 62px;
   border-radius: 2px;
   cursor: pointer;
+  padding-top: 9px; /* Adiciona espaço na parte interna do botão*/
+  padding-bottom: 9px; /* Reduzi um px do valor pois a borda coloca um px a mais do valor do elemento */
+  padding-left: 16px;
+  padding-right: 16px;
   transition: background-color 0.15s,
     color 0.15s;
   }
 
   .join-button:hover {
-    background-color: rgb(41, 118, 211);
+    background-color: rgb(6, 95, 212);
     color: white;
   }
 
@@ -54,6 +59,7 @@
     cursor: pointer;
     margin-left: 8px;
     transition: box-shadow 0.15s;
+    vertical-align: top;
   }
 
   .tweet-button:hover {
