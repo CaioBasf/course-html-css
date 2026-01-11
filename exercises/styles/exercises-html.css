@@ -1,5 +1,4 @@
-<style>
-  .titulo {
+.titulo {
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -53,28 +52,3 @@
   .comprar-agora:active {
     opacity: 0.6;
   }
-</style>
-
-<a href="https://www.kabum.com.br" target="_blank">
-  Voltar para a Kabum
-</a>
-
-<p class="titulo">
-  Simulador Fanatec + Volante Honda
-</p>
-
-<p class="preco">
-  R$10.000 - em estoque!
-</p>
-
-<p class="entrega">
-  Frete grátis!
-</p>
-
-<button class="carrinho">
-  Adicionar ao Carrinho
-</button>
-
-<button class="comprar-agora">
-  Comprar agora
-</button>

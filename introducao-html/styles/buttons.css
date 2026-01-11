@@ -1,5 +1,4 @@
-<style>
-  .subscribe-button { /* Seletor CSS */
+.subscribe-button { /* Seletor CSS */
     background-color: rgb(204, 0, 0); /* Propiedade do CSS / valor do CSS*/
     color: white; /* color é apenas a letra do elemento*/
     border: none;
@@ -14,40 +13,40 @@
     vertical-align: top;
     }
 
-    .subscribe-button:hover {
-      opacity: 0.8;
-    }
+.subscribe-button:hover {
+    opacity: 0.8;
+}
 
-    .subscribe-button:active {
-      opacity: 0.5;
-    }
+.subscribe-button:active {
+    opacity: 0.5;
+}
 
-  .join-button {
-  background-color: white;
-  color: rgb(6, 95, 212);
-  border-color: rgb(6, 95, 212);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  cursor: pointer;
-  padding-top: 9px; /* Adiciona espaço na parte interna do botão*/
-  padding-bottom: 9px; /* Reduzi um px do valor pois a borda coloca um px a mais do valor do elemento */
-  padding-left: 16px;
-  padding-right: 16px;
-  transition: background-color 0.15s,
+.join-button {
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 9px; /* Adiciona espaço na parte interna do botão*/
+    padding-bottom: 9px; /* Reduzi um px do valor pois a borda coloca um px a mais do valor do elemento */
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: background-color 0.15s,
     color 0.15s;
-  }
+}
 
-  .join-button:hover {
+.join-button:hover {
     background-color: rgb(6, 95, 212);
     color: white;
-  }
+}
 
-  .join-button:active {
+.join-button:active {
     opacity: 0.7;
-  }
+}
   
-  .tweet-button {
+.tweet-button {
     background-color: rgb(29, 155, 240);
     color: white;
     border: none;
@@ -60,27 +59,13 @@
     margin-left: 8px;
     transition: box-shadow 0.15s;
     vertical-align: top;
-  }
+}
 
-  .tweet-button:hover {
+.tweet-button:hover {
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*O primeiro valor é para posição horizontal, o segundo é para vertical e o terceiro é o blur*/
     /*red, green, blue, opacity (RGBA) */
-  }
+}
 
   .tweet-button:active {
   opacity: 0.7;
-  }
-
-</style>
-
-<button class="subscribe-button">
-  SUBSCRIBE
-</button>
-
-<button class="join-button">
-  JOIN
-</button>
-
-<button class="tweet-button">
-  Tweet
-</button>
+}

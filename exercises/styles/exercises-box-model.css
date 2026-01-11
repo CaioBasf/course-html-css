@@ -1,5 +1,4 @@
-<style>
-  .paginacao {
+.paginacao {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 8px;
@@ -83,50 +82,3 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-
-</style>
-<!-- Paginação --> 
-
-<button class="paginacao">
-  Back
-</button>
-
-<a href="https://www.youtube.com"> 1 </a>
-<a href="https://www.youtube.com"> 2 </a>
-<a href="https://www.youtube.com"> 3 </a>
-<a href="https://www.youtube.com"> 4 </a>
-<a href="https://www.youtube.com"> 5 </a>
-<a href="https://www.youtube.com"> 6 </a>
-
-<button class="paginacao"> 
-  Next
-</button>
-
-<br>
-
-<!-- Esticar -->
-<button class="Esticar">
- Esticar
-</button>
-
-<br>
-
-<!-- 3d Click-->
-<button class="sombra">
-  Sombra
-</button>
-
-<br>
-
-<!-- Margem e Padding-->
-<button class="espaco">
-  Um
-</button>
-
-<button class="espaco">
-  Dois
-</button>
-
-<button class="espaco">
-  Três
-</button>

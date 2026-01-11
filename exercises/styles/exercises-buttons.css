@@ -1,5 +1,4 @@
-<style>
-  .uber {
+.uber {
     background-color: rgb(0, 0, 0);
     color: white;
     border: none;
@@ -110,52 +109,3 @@
     background-color: rgb(195, 208, 248);
     border-width: 3px;
   }
-</style>
-
-<p>
-  Uber
-</p>
-
-<button class="uber">
-  Request now
-</button>
-
-<p>
-  Amazon
-</p>
-
-<button class="amazon">
-  Add to Cart
-</button>
-
-<p>
-  Github
-</p>
-
-<button class="github">
-  Sign up
-</button>
-
-<p>
-  Bootstrap
-</p>
-
-<button class="bootstrap-get-started">
-  Get started
-</button>
-
-<button class="bootstrap-download">
-  Download
-</button>
-
-<p>
-  LinkedIn
-</p>
-
-<button class="linkedin-link">
-  Apply on company website
-</button>
-
-<button class="linkedin-save">
-  Save
-</button>
