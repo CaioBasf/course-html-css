@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.salsicha1 {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.salsicha2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 35%;
+}
+
+.salsicha3 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 35%;
+  border-radius: 200px;
+}
+
+.pesquisa1 {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+.google {
+  font-style: Arial;
+  padding-left: 10px;
+  padding-right: 190px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: -1px 0px 5px 1px rgba(0, 0, 0 , 0.2);
+  border: none;
+}
+
+.text1 {
+  font-family: Arial;
+  color: rgb(102, 102, 102);
+  margin-bottom: 5px;
+}
+
+.text2 {
+  font-family: Arial;
+  color: rgb(102, 102, 102);
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.email {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  width: 400px;
+}
+
+.concordar-entrar {
+  font-family: Arial;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 165px;
+  padding-left: 165px;
+  background-color: rgb(23, 107, 204);
+  border-radius: 80px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.salsicha4 {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 35%;
+  border-radius: 200px;
+  margin: 0px;
+  
+}
+
+.palavra {
+  vertical-align: middle;
+  padding-right: 30px;
+  margin-left: 5px;
+  border: none;
+  font-size: 15px;
+
+}
+
+.tweet {
+  vertical-align: middle;
+  font-family: Arial;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: rgb(56, 147, 250);
+  border-radius: 80px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
