@@ -1,0 +1,43 @@
+.nome {
+  display: block;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.email {
+  display: block;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: inline-block;
+  width: 200px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.sim,
+.nao {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.google {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px auto;
+}
+
+.pesquisa {
+  font-family: Arial;
+  display: block;
+  margin: auto;
+  width: 600px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}

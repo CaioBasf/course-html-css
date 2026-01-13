@@ -1,7 +1,18 @@
 .thumbnail {
   width: 300px;
+  display: block;
 }
 
 .barra-de-pesquisa {
   
+}
+
+.titulo-video {
+  width: 400px;
+}
+
+.autor-video {
+}
+
+.status-video {
 }
