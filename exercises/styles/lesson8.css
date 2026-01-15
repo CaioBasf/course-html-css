@@ -17,8 +17,7 @@
   vertical-align: middle;
 }
 
-.sim,
-.nao {
+.sim, .nao {
   margin-left: 5px;
   cursor: pointer;
 }
@@ -40,4 +39,81 @@
   border-radius: 20px;
   border: none;
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+/* -- */
+
+.primeiro-nome, .ultimo-nome, .email2, .inscreva-se {
+  font-family: Arial;
+}
+
+.primeiro-nome, .ultimo-nome {
+width: 100px;
+padding: 10px 5px 10px 15px;
+margin-bottom: 10px;
+border-radius: 8px;
+border-style: solid;
+border-width: 1px;
+}
+
+.email2 {
+display: block;
+margin-bottom: 8px;
+padding: 10px 70px 10px 15px;
+border-radius: 8px;
+border-style: solid;
+border-width: 1px;
+}
+
+.inscreva-se {
+font-weight: bold;
+border: none;
+background-color: rgb(0, 102, 255);
+color: white;
+border-radius: 8px;
+padding: 10px 100px;
+cursor: pointer;
+}
+
+/* -- */
+
+.paragrafo, .location-user, .destination-user, .pedir, .agendar {
+  font-family: Arial;
+}
+.paragrafo {
+  margin-bottom: 20px;
+  font-size: 20px
+}
+
+.location-user {
+  display: block;
+  margin-bottom: 5px;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  padding: 10px 90px 10px 20px;
+}
+
+.destination-user {
+  display: block;
+  margin-bottom: 20px;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  padding: 10px 90px 10px 20px;
+}
+
+.pedir {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.agendar {
+  background-color: rgb(226, 226, 226);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }

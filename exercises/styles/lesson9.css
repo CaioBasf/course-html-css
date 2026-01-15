@@ -1,0 +1,153 @@
+.quadrado {
+  margin-right: 10px;
+  display: inline-block;
+  background-color: red;
+  padding: 50px;
+}
+
+.circulo {
+  margin-left: 10px;
+  display: inline-block;
+  background-color: green;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.formas {
+  margin-bottom: 20px;
+}
+
+/* -- */
+
+.container-feedback {
+  font-family: Arial;
+  display: block;
+  width: fit-content;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 20px 80px 20px 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.satisfacao {
+  margin: 0px 0px 10px 0px;
+}
+
+.sim, .nao {
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+/* -- */
+
+.pop-up {
+  font-family: Arial;
+  display: block;
+  width: fit-content; /* Ao inves de ficar colocando o tipo exato de medida ele pode simplesmente setar automatico*/
+  background-color: rgb(68, 68, 68);
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.paragrafo {
+  margin: 0px 0px 0px 0px;
+  width: 350px;
+}
+
+/* -- */
+
+.tweet {
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tweet-button {
+  vertical-align: middle;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 8px 12px 8px 12px;
+  background-color: rgb(56, 147, 250);
+  border-radius: 80px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.palavra {
+  vertical-align: middle;
+  padding-right: 30px;
+  margin-left: 5px;
+  border: none;
+  font-size: 15px;
+
+}
+
+.salsicha1 {
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: 35%;
+  border-radius: 200px;
+  margin: 0px; 
+}
+
+/* -- */
+
+.perfil {
+  font-family: Arial;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.salsicha2 {
+  object-fit: cover;
+  margin: -10px -10px 0px -10px;
+  width: 200px;
+  height: 200px;
+  object-position: 40%;
+}
+
+.usuario {
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+
+.conexoes {
+  margin: 0px 0px 5px 0px;
+  color: rgb(95, 94, 94);
+}
+
+.adicionar {
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* -- */
+
+.barra-adicionar {
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  
+}

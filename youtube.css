@@ -4,15 +4,23 @@
 }
 
 .barra-de-pesquisa {
-  
+  display: block;
 }
 
 .titulo-video {
-  width: 400px;
+  width: 300px;
 }
 
 .autor-video {
+  
 }
 
 .status-video {
+}
+
+.container-video {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin-right: 15px;
 }
