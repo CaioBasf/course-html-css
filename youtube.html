@@ -5,42 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube.com Clone</title>
     <link rel="stylesheet" href="youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
 
     <div class="container-video"> <!-- Container de vídeo-->
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+      <div class="thumbnail-linha"">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+      </div>
+      <div>
+        <div class="foto-canal">
+          <img class="profile-picture" src="canais/channel-1.jpeg"> 
+        </div>
 
-      <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
-        Talking Tech and AI with Google CEO Sundar Pichai! 
-      </p>
-
-      <p class="autor-video">
-        Marques Brownlee <!-- Inline element, que só aparece em algum texto como o <strong> <strong/>-->
-      </p>
-        
-      <p class="status-video">
-        3.4M views &#183 6 months ago 
-      </p>
-
+        <div class="informacoes-canal">        
+          <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
+          Talking Tech and AI with Google CEO Sundar Pichai! 
+          </p>
+          <p class="autor-video">
+            Marques Brownlee <!-- Inline element, que só aparece em algum texto como o <strong> <strong/>-->
+          </p>
+          <p class="status-video">
+            3.4M views &#183 6 months ago 
+          </p>
+        </div>
+      </div>
     </div>
 
-        <div class="container-video"> <!-- Container de vídeo-->
-      <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+      <div class="container-video"> <!-- Container de vídeo-->
+        <div>        
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+        </div>
 
-      <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
-        Try Not To Laugh Challenge #9 
-      </p>
+        <div>
 
-      <p class="autor-video">
-        Markiplier
-      </p>
-        
-      <p class="status-video">
-        19M views &#183 4 years ago 
-      </p>
+          <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
+          Try Not To Laugh Challenge #9 
+        </p>
+
+        <p class="autor-video">
+          Markiplier
+        </p>
+          
+        <p class="status-video">
+          19M views &#183 4 years ago 
+        </p>
+      </div>
+
     </div>
 
   </body>
