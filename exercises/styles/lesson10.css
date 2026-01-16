@@ -1,0 +1,58 @@
+p {
+  font-family: Roboto, Arial;
+  margin: 0px 0px 2px 0px;
+}
+
+.recomendacoes {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.container-foto-usuario {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.foto-usuario {
+  object-fit: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  object-position: 40%;
+}
+
+.container-informacoes {
+  display: inline-block;
+}
+
+.nome-usuario {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sobre-usuario,
+.popularidade-usuario {
+  color: gray;
+  font-size: 12px;
+}
+
+.popularidade-usuario {
+  font-size: 10px;
+}
+
+.container-botao {
+  display: inline-block;
+  vertical-align: ;
+  margin: 0px 0px 0px 100px;
+}
+
+.botao-seguir {
+  background-color: rgb(0, 149, 255);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+}

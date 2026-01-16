@@ -1,62 +1,318 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube.com Clone</title>
-    <link rel="stylesheet" href="youtube.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube.com Clone</title>
+  <link rel="stylesheet" href="youtube.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
 
+<body>
+
+  <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
+
+  <div class="grid-video">
     <div class="container-video"> <!-- Container de vídeo-->
-      <div class="thumbnail-linha"">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-1.webp">
+        <!-- Inline block element, que só pega o espaço que o elemento precisa-->
       </div>
-      <div>
-        <div class="foto-canal">
-          <img class="profile-picture" src="canais/channel-1.jpeg"> 
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-1.jpeg">
         </div>
 
-        <div class="informacoes-canal">        
+        <div class="container-info-canal">
           <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
-          Talking Tech and AI with Google CEO Sundar Pichai! 
+            Talking Tech and AI with Google CEO Sundar Pichai!
           </p>
           <p class="autor-video">
             Marques Brownlee <!-- Inline element, que só aparece em algum texto como o <strong> <strong/>-->
           </p>
           <p class="status-video">
-            3.4M views &#183 6 months ago 
+            3.4M views &#183 6 months ago
+          </p>
+        </div>
+      </div> <!-- Container info-->
+    </div> <!--container video -->
+
+
+    <div class="container-video">
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-2.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            Try Not To Laugh Challenge #9
+          </p>
+
+          <p class="autor-video">
+            Markiplier
+          </p>
+
+          <p class="status-video">
+            19M views &#183 4 years ago
           </p>
         </div>
       </div>
     </div>
 
-      <div class="container-video"> <!-- Container de vídeo-->
-        <div>        
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> <!-- Inline block element, que só pega o espaço que o elemento precisa-->
+    <div class="container-video">
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-3.webp">
+      </div>
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-3.jpeg">
         </div>
 
-        <div>
-
-          <p class="titulo-video"> <!-- Elemento de bloco, que vai ate o final da linha-->
-          Try Not To Laugh Challenge #9 
-        </p>
-
-        <p class="autor-video">
-          Markiplier
-        </p>
-          
-        <p class="status-video">
-          19M views &#183 4 years ago 
-        </p>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            Crazy Tik Toks Taken Moments Before DISASTER 
+          </p>
+          <p class="autor-video">
+            SSSniperWolf 
+          </p>
+          <p class="status-video">
+            12M views &#183 1 year ago 
+          </p>
+        </div>
       </div>
-
     </div>
 
-  </body>
+
+    <div class="container-video"> 
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-4.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture 
+          </p>
+
+          <p class="autor-video">
+            Veritasium 
+          </p>
+
+          <p class="status-video">
+            18M views &#183 4 months ago 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-video"> 
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-5.webp">
+      </div>
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-5.jpeg">
+        </div>
+
+        <div class="container-info-canal">
+          <p class="titulo-video"> 
+            Kadane's Algorithm to Maximum Sum Subarray Problem 
+          </p>
+          <p class="autor-video">
+            CS Dojo  
+          </p>
+          <p class="status-video">
+            519K views &#183 5 years ago 
+          </p>
+        </div>
+      </div>
+    </div> 
+
+
+    <div class="container-video"> 
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-6.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            Anything You Can Fit In The Circle I’ll Pay For 
+          </p>
+
+          <p class="autor-video">
+            MrBeast 
+          </p>
+
+          <p class="status-video">
+            141M views &#183 1 year ago 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-video"> 
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-7.webp">
+      </div>
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-7.jpeg">
+        </div>
+
+        <div class="container-info-canal">
+          <p class="titulo-video"> 
+            Why Planes Don't Fly Over Tibet 
+          </p>
+          <p class="autor-video">
+            RealLifeLore 
+          </p>
+          <p class="status-video">
+            6.6M views &#183 1 year ago
+          </p>
+        </div>
+      </div>
+    </div> 
+
+
+    <div class="container-video">
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-8.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            Inside The World's Biggest Passenger Plane 
+          </p>
+
+          <p class="autor-video">
+            Tech Vision 
+          </p>
+
+          <p class="status-video">
+            3.7M views &#183 10 months ago 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-video"> 
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-9.webp">
+      </div>
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-9.jpeg">
+        </div>
+
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            The SECRET to Super Human STRENGTH 
+          </p>
+          <p class="autor-video">
+            ThenX 
+          </p>
+          <p class="status-video">
+            20M views &#183 3 year ago 
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-video"> 
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-10.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video">
+            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day 
+          </p>
+
+          <p class="autor-video">
+            Business Insider 
+          </p>
+
+          <p class="status-video">
+            14M views &#183 1 year ago 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-video">
+      <div class="container-thumbnail"">
+        <img class=" thumbnail" src="thumbnails/thumbnail-11.webp">
+      </div>
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-11.jpeg">
+        </div>
+
+        <div class="container-info-canal">
+          <p class="titulo-video"> 
+            Dubai's Crazy Underwater Train and Other Things #Only in Dubai 
+          </p>
+          <p class="autor-video">
+            Destination Tips 
+          </p>
+          <p class="status-video">
+            3M views &#183 1 year ago 
+          </p>
+        </div>
+      </div> 
+    </div> 
+
+
+    <div class="container-video">
+      <div class="container-thumbnail">
+        <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+      </div>
+
+      <div class="grid-info-canal">
+        <div class="container-foto-canal">
+          <img class="foto-canal" src="canais/channel-12.jpeg">
+        </div>
+        <div class="container-info-canal">
+          <p class="titulo-video"> 
+            What would happen if you didn’t drink water? - Mia Nacamulli 
+          </p>
+
+          <p class="autor-video">
+            TED-Ed
+          </p>
+
+          <p class="status-video">
+            12M views &#183 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
