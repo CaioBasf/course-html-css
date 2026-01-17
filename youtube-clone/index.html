@@ -5,17 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube.com Clone</title>
-  <link rel="stylesheet" href="youtube.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles\main.css">
+  <link rel="stylesheet" href="styles\header.css">
+  <link rel="stylesheet" href="styles\video.css">
+  
+  
 </head>
 
 <body>
 
-  <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
+  <div class="header">
+    <div class="secao-esquerda">
+      <img class="menu-hamburger" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg" >
+    </div>
+
+    <div class="secao-meio">
+      <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
+      <button class="botao-pesquisa">
+        <img class="icone-pesquisa" src="icons/search.svg">
+      </button>
+      <button class="botao-pesquisa-voz">
+        <img class="icone-pesquisa-voz" src="icons/voice-search-icon.svg">
+      </button>
+    </div>
+
+    <div class="secao-direita">
+      <img class="icone-upload" src="icons/upload.svg">
+      <img class="icone-youtube-apps" src="icons/youtube-apps.svg">
+      <img class="icone-notificacoes" src="icons/notifications.svg">
+      <img class="icone-meu-canal" src="canais/my-channel.jpeg">
+    </div>
+  </div>
 
   <div class="grid-video">
     <div class="container-video"> <!-- Container de vídeo-->

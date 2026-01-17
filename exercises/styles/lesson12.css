@@ -1,0 +1,237 @@
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.lb1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.lp1 {
+  background-color: lightpink;
+  width: 200px;
+}
+
+/* -- */
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.lb2 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.lp2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.lb2-2 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+/* -- */
+
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.lp3 {
+  background-color: lightpink;
+  width: fit-content;
+}
+
+.lp3-2 {
+  background-color: lightpink;
+  width: fit-content;
+}
+
+.lb3-3 {
+  background-color: lightpink;
+  width: fit-content;
+}
+
+.lp3-4 {
+  background-color: lightpink;
+  width: fit-content;
+}
+
+/* -- */
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  justify-content: space-between;
+  align-items: center; /* É para usar esse na flexbox */
+  margin-bottom: 30px;
+}
+
+.lp4 {
+  background-color: lightpink;
+  height: fit-content;
+  width: fit-content;
+}
+
+.lp4-2 {
+  background-color: lightpink;
+  height: fit-content;
+  width: fit-content;
+}
+
+/* -- */
+
+p {
+  font-family: Roboto, Arial;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.where,
+.number {
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.number {
+  background-color: rgb(0, 98, 255);
+  color: white;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 14px;
+}
+
+/* -- */
+
+.main-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.container-perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+img {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px 0px 10px;
+  width: 150px;
+}
+
+.usuario,
+.sobre,
+.popularidade {
+  padding: 2px 0px;
+}
+
+.usuario {
+  font-weight: bold;
+}
+
+.sobre,
+.popularidade {
+  color: gray;
+}
+
+.popularidade {
+  font-size: 14px;
+}
+
+.seguir {
+  height: fit-content;
+  width: fit-content;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(0, 115, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* -- */
+
+.header {
+  font-family: Arial;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(100, 74, 145);
+  padding: 15px 10px;
+  align-items: center;
+}
+
+.home {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.pesquisar {
+  padding: 10px 350px 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.download {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}

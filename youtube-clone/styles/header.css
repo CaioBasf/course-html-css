@@ -1,0 +1,109 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.secao-esquerda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-hamburger {
+  height: 24px;
+  margin: 24px 24px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.secao-meio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  margin: 0px 35px 0px 70px;
+  max-width: 500px; /* Até o maximo em que o elemento pode esticar */
+}
+
+.barra-de-pesquisa {
+  flex: 1;
+  height: 36px;
+  padding: 0px 0px 0px 10px ;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05); /* Inset é quando as sombras são internas */
+  width: 0;
+}
+
+.barra-de-pesquisa::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.botao-pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);;
+  background-color: rgb(240, 240, 240);
+  margin: 0px 10px 0px -1px;
+}
+
+.icone-pesquisa {
+  height: 25px;
+}
+
+.botao-pesquisa-voz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(245, 245, 245);
+}
+
+.icone-pesquisa-voz {
+  height: 24px;
+}
+
+.secao-direita {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0px 0px;
+  flex-shrink: 0; /* Essa propiedade evita de que o flexbox encolha e "flebilize" */
+  width: 180px;
+}
+
+.icone-upload {
+  height: 24px;
+}
+
+.icone-youtube-apps {
+  height: 24px;
+}
+
+.icone-notificacoes {
+  height: 24px;
+}
+
+.icone-meu-canal {
+  height: 34px;
+  object-fit: cover;
+  border-radius: 16px;
+}

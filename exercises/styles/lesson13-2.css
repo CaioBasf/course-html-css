@@ -1,0 +1,48 @@
+p {
+  margin: 0px;
+  font-family: Arial;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.label-principal {
+  display: flex;
+  flex-direction: column;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.label-secundaria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.foto-usuario {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.info-label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.label-terciaria {
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+}
+
+.hora {
+  width: fit-content;
+  height: fit-content;
+}

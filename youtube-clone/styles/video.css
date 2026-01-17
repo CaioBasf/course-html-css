@@ -1,13 +1,3 @@
-p {
-  font-family: Roboto, Arial; /* A segunda fonte que coloquei é uma fonte de emergencia que serve para que por quaisquer razões a primeira fonte não funcione a segunda será usada para substituir*/
-  margin: 0px 0px 0px 0px;
-}
-
-.barra-de-pesquisa {
-  margin-bottom: 30px;
-  display: block;
-}
-
 .container-thumbnail {
   margin: 0px 0px 12px 0px;
 }
