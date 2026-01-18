@@ -1,0 +1,38 @@
+body {
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  position: fixed; /* sobrepoe e deixa uma posição fixa no navegador.*/
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+}
+
+.sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  left: 0px;
+  width: 72px;
+}
+
+.div1 {
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  position: static;
+}
+
+.div2 {
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+}

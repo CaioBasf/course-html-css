@@ -1,0 +1,92 @@
+p {
+  font-family: Arial;
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.foto-usuario {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.container-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nome-perfil {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.nome-usuario {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.tag-usuario {
+  font-size: 16px;
+  color: rgb(97, 97, 97);
+}
+
+.container-comentario {
+  font-size: 18px;
+}
+
+.comentario {
+  max-width: 400px;
+  padding-bottom: 10px;
+  line-height: 22px;
+}
+
+.container-links {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  border-radius: 18px;
+}
+
+.foto-link {
+  display: flex;
+  flex: 1;
+  background-color: rgb(208, 208, 208);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.info-link {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding: 16px 10px;
+}
+
+.link {
+  padding-bottom: 5px;
+  color: rgb(97, 97, 97);
+}
+
+.sobre-link {
+  font-size: 16px;
+  max-width: 350px;
+}
