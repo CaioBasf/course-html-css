@@ -14,6 +14,8 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(228, 228, 228);
+
+  z-index: 100;
 }
 
 .secao-esquerda {
@@ -108,8 +110,24 @@
   height: 24px;
 }
 
+.container-notificacoes {
+  position: relative;
+}
+
 .icone-notificacoes {
   height: 24px;
+}
+
+.contador-notificacoes {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  top: -2px;
+  right: -5px;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 10px;
 }
 
 .icone-meu-canal {

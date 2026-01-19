@@ -1,0 +1,131 @@
+body {
+  height: 3000px;
+}
+
+.button-position {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.button-x {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.square-position {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.square {
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+}
+
+/* -- */
+
+.video-placeholder {
+  position: fixed;
+  bottom: 15px;
+  left: 25px;
+}
+
+.quadrado {
+  position: relative;
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+}
+
+.fechar {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.tempo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: Arial;
+  font-weight: 500px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* */
+
+.anuncio-position {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.camisa-placeholder {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.camisa {
+  object-fit: cover;
+  width: 200px;
+  height: 235px;
+  object-position: 50% 0%;
+}
+
+.desconto {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+.camisa-placeholder:hover {
+  .container-adicionar-carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 200px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .adicionar-carrinho {
+    font-family: Arial;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+}
+
+.container-adicionar-carrinho {
+  display: none;
+}

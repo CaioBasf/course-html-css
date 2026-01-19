@@ -1,4 +1,5 @@
 .container-thumbnail {
+  position: relative;
   margin: 0px 0px 12px 0px;
 }
 
@@ -6,13 +7,22 @@
   width: 100%;
 }
 
+.tempo-video {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
+  padding: 4px 4px;
+  border-radius: 2px;
+}
+
 .grid-info-canal {
   display: grid;
   grid-template-columns: 50px 1fr;
-}
-
-.container-foto-canal {
-
 }
 
 .foto-canal {

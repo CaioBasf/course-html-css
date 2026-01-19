@@ -7,11 +7,12 @@ body {
 .header {
   background-color: black;
   color: white;
-  position: fixed; /* sobrepoe e deixa uma posição fixa no navegador.*/
+  position: fixed; /* sobrepoe e deixa uma posição fixa no navegador e não desaparece quando rolamos a página*/
   top: 0px;
   left: 0px;
   right: 0px;
   height: 50px;
+  z-index: 1; /* Define a posição do elemento no navegador como se fossem camadas do photoshop, quem aparece primeiro.*/
 }
 
 .sidebar {
@@ -24,6 +25,23 @@ body {
   width: 72px;
 }
 
+.absolute2 {
+  position: absolute; /* é uma posição que fica fixada em uma parte do navegador mas que desaparece quando rolamos a página */
+  background-color: red;
+  color: white;
+  top: 0px;
+  right: 0px;
+}
+
+.absolute {
+  position: absolute; /* é uma posição que fica fixada em uma parte do navegador mas que desaparece quando rolamos a página */
+  background-color: red;
+  color: white;
+  top: 60px;
+  right: 10px;
+  z-index: 0; /* Define a posição do elemento no navegador como se fossem camadas do photoshop, quem aparece primeiro.*/
+}
+
 .div1 {
   background-color: lightblue;
   height: 200px;
@@ -32,7 +50,16 @@ body {
 }
 
 .div2 {
+  position: relative;
   background-color: lightpink;
   height: 200px;
   width: 200px;
+}
+
+.absolute3 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
 }
