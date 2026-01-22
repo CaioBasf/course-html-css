@@ -72,7 +72,48 @@
   border-color: rgb(192, 192, 192);;
   background-color: rgb(240, 240, 240);
   margin: 0px 10px 0px -1px;
+
+  position: relative;
 }
+
+.botao-pesquisa, 
+.botao-pesquisa-voz,
+.icone-upload-container,
+.container-youtube-apps,
+.container-notificacoes {
+  position: relative;
+}
+
+.botao-pesquisa .tooltip,
+.botao-pesquisa-voz .tooltip,
+.icone-upload-container .tooltip,
+.container-youtube-apps .tooltip,
+.container-notificacoes .tooltip {
+  font-family: Roboto, Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  top: 45px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.botao-pesquisa:hover .tooltip,
+.botao-pesquisa-voz:hover .tooltip,
+.icone-upload-container:hover .tooltip,
+.container-youtube-apps:hover .tooltip,
+.contador-notificacoes:hover .tooltip {
+  opacity: 1;
+}
+
 
 .icone-pesquisa {
   height: 25px;

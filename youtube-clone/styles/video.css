@@ -1,6 +1,6 @@
 .container-thumbnail {
   position: relative;
-  margin: 0px 0px 12px 0px;
+  margin: 0px 0px 8px 0px;
 }
 
 .thumbnail {
@@ -26,13 +26,13 @@
 }
 
 .foto-canal {
-  width: 40px;
+  width: 36px;
   border-radius: 100%;
 }
 
 
 .titulo-video {
-  margin: 0px 0px 12px 0px;
+  margin: 0px 0px 10px 0px;
   font-size: 14px;
   font-weight: 500;
   line-height: 15px;
@@ -53,4 +53,55 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.container-foto-canal {
+  position: relative;
+}
+
+.container-foto-canal .pop-up-canal {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  background-color: white;
+  bottom: -42px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: 0.25s;
+}
+
+.container-foto-canal:hover .pop-up-canal {
+  opacity: 1;
+}
+
+.pop-up-textos {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Arial;
+  padding-left: 8px;
+}
+
+.pop-up-canal-usuario {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 150px;
+  padding-bottom: 2px;
+}
+
+.pop-up-inscritos {
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+}
+
+.foto-canal-pop-up {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
 }
