@@ -47,16 +47,13 @@
   height: 36px;
   padding: 0px 0px 0px 10px ;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05); /* Inset é quando as sombras são internas */
   width: 0;
 }
 
 .barra-de-pesquisa::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
 
@@ -89,7 +86,6 @@
 .icone-upload-container .tooltip,
 .container-youtube-apps .tooltip,
 .container-notificacoes .tooltip {
-  font-family: Roboto, Arial;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,7 +156,6 @@
 }
 
 .contador-notificacoes {
-  font-family: Roboto, Arial;
   font-size: 10px;
   position: absolute;
   background-color: rgb(200, 0, 0);

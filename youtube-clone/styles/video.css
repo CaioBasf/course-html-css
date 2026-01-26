@@ -55,6 +55,26 @@
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .grid-video {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751) and (max-width: 999px) {
+  .grid-video {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-video {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
 .container-foto-canal {
   position: relative;
 }
